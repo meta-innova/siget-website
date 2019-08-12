@@ -1,0 +1,88 @@
+#main .home-page-title {
+  padding: 100px 64px 0px 64px;
+  color: #fff;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+
+#main .home-page-title h1 {
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+#main .home-page-title p {
+  text-align: justify;
+  padding: 16px 0px 16px 0px;
+}
+
+#main .home-page-img {
+  position: relative;
+  padding-top: 50px;
+}
+
+#main .home-page-img .img {
+  width: 100%;
+  height: 500px;
+  background-image: url("../img/modulos.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#main .home-page-opcion-siget {
+  width: 80%; 
+  margin: auto;
+  padding: 2px 16px;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #444;
+  border-radius: 6px;
+}
+
+#main .home-page-opcion-siget h2 {
+  text-align: center;
+}
+
+#main .home-page-opcion-siget ul {
+  padding: 0 32px 16px 32px;
+}
+
+#main .home-page-opcion-siget li {
+  line-height: 24px;
+}
+
+@media screen and (max-width: 63.999em) {
+  #main .home-page-title {
+    padding: 80px 32px 0px 32px;
+  }
+
+  #main .home-page-img {
+    padding-top: 60px;
+  }
+
+  #main .home-page-img .img {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 47.999em) {
+  #main .home-page-title {
+    padding: 0px;
+  }
+
+  #main .home-page-title h1 {
+    letter-spacing: normal;
+  }
+
+  #main .home-page-title p {
+    padding: 0px 16px 0px 16px;
+  }
+
+  #main .home-page-img {
+    padding-top: 0px;
+  }
+
+  #main .home-page-img .img {
+    height: 350px;
+  }
+}
